@@ -62,3 +62,7 @@ minikube ip
 minikube service --url nginx-svc
 
 ```
+
+```shell
+kubectl get pods --namespace=ingress-nginx
+```
